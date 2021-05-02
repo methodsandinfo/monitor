@@ -1,0 +1,19 @@
+#servers {
+    width: 50vw;
+    margin: 20px auto;
+}
+
+th {
+    text-align: center;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.table-toolbar {
+    margin: 10px 5px;
+    padding: 5px;
+}
