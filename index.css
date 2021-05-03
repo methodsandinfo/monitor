@@ -17,3 +17,9 @@ th {
     margin: 10px 5px;
     padding: 5px;
 }
+
+.page {
+    height: calc(100vh - 60px);
+    width: 100vw;
+    overflow-y: scroll;
+}

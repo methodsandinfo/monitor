@@ -36,6 +36,12 @@ function check($host, $id, mysqli $db)
 			WHERE
 				ServerID = ' . $id);
 	}
+	$servers = $db->query('
+		SELECT *
+		FROM Servers.Servers
+		WHERE ServerWorking = 0
+	');
+	Mailer::Send($servers);
 }
 
 function job(mysqli $database)

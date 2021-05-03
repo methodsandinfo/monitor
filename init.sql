@@ -28,3 +28,9 @@ CREATE TABLE MSSQLDatabases (
         `LastUpdated` datetime DEFAULT NOW(),
         PRIMARY KEY (`DatabaseID`)
 );
+
+CREATE TABLE MailList (
+    `UserID` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `Email` varchar(255) DEFAULT NULL,
+    PRIMARY KEY (`UserID`)
+);
